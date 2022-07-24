@@ -1,0 +1,17 @@
+
+.li{
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+    border: 2px solid blue;
+    background-color: aqua;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+span{
+    display: inline-block;
+    width: 480px;
+}
+label{
+    margin-right: 10px;
+}

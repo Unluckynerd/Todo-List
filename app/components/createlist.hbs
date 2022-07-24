@@ -1,0 +1,9 @@
+<li>
+      <div class='li'>
+        <span class="{{if this.isChecked "text-decoration-line-through" "text-decoration-none"}}">
+            {{@list}}
+        </span>
+        <label><Input @type='checkbox' @checked={{this.isChecked}} class="form-check-input" />Finished</label>
+        <button type='button' class='btn btn-outline-danger' onclick={{fn this.remove @list}}>Delete</button>
+      </div>
+</li>

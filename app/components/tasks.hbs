@@ -1,0 +1,9 @@
+<Newtask @onCreate={{this.add}} />
+
+<ul class='list-unstyled'>
+  {{#each this.listArray as |list|}}
+
+    <Createlist @list={{list}} @onFinish={{this.isChecked}} @onDelete={{this.delete}} />
+
+  {{/each}}
+</ul>
